@@ -1,0 +1,53 @@
+/* Place your CSS styles in this file */
+body {
+	font-family: "Source Sans Pro", sans-serif;
+}
+h1 {
+   text-align: center;
+   font-family: "Source Sans Pro", sans-serif;
+   font-weight: normal;
+}
+* {
+ box-sizing: border-box;
+}
+
+#myInput {
+ background-image: url('/css/searchicon.png');
+ background-position: 10px 10px;
+ background-repeat: no-repeat;
+ width: 25%;
+ margin-left: 25%;
+ font-size: 14px;
+ padding: 12px;
+ border: 1px solid #ddd;
+ margin-bottom: 12px;
+}
+
+#myTable {
+ border-collapse: collapse;
+ border: 1px solid #ddd;
+ font-size: 14px;
+	width: 50%;
+	margin: auto;
+}
+
+#myTable th, #myTable td {
+ text-align: center;
+ padding: 4px;
+}
+
+#myTable tr {
+ border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+ background-color: #f1f1f1;
+}
+
+.header {
+	font-size: 14px;
+	font-weight: 900;
+	text-align:center;
+}
+
+
